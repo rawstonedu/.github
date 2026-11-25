@@ -1,0 +1,14 @@
+# Standard labels for every repository in the organisation.
+# Apply with: scripts/sync-labels.sh <owner/repo> [<owner/repo> ...]
+- {name: bug,              color: d73a4a, description: Something is not working}
+- {name: enhancement,      color: a2eeef, description: New feature or improvement}
+- {name: documentation,    color: 0075ca, description: Improvements or additions to documentation}
+- {name: chore,            color: cfd3d7, description: Maintenance, refactoring, dependency updates}
+- {name: security,         color: b60205, description: Security-relevant change or finding}
+- {name: infra,            color: 5319e7, description: Infrastructure, CI/CD or environments}
+- {name: drift,            color: fbca04, description: Live infrastructure differs from code}
+- {name: needs-triage,     color: ededed, description: Not yet reviewed or prioritised}
+- {name: blocked,          color: 000000, description: Waiting on something external}
+- {name: breaking,         color: e99695, description: Breaking change for consumers}
+- {name: good first issue, color: 7057ff, description: Good for newcomers}
+- {name: help wanted,      color: 008672, description: Extra attention is needed}
